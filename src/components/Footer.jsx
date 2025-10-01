@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className='min-h-[4.0625rem] bg-gray-800 flex text-white'>
         <div className='container flex justify-between items-center'>
-            <Link to={"/"} className='font-semibold text-[1.25rem]'>Brand logo</Link>
+            <p>Copyright 2025</p>
             <div className="text-[1.5625rem] flex gap-[.625rem]">
                 <Link to={"/"}><FaInstagramSquare /></Link>
                 <Link to={"/"}><FaFacebookSquare /></Link>
